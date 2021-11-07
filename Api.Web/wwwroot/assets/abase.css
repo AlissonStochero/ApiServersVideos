@@ -1,0 +1,551 @@
+.no-padding {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.titulo-municipio {
+    margin-left: 12px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 2.0;
+}
+
+.titulo-processo-digital {
+    margin-left: 12px;
+    color: #fff;
+    line-height: 0.4;
+}
+
+.footer {
+    bottom: 0 !important;
+    left: 0;
+    padding: 10px 15px;
+    right: 0;
+    border-top: 1px solid #e9ecef;
+    background: #fff;
+}
+
+@media (max-width: 768px) {
+    .titulo-processo-digital {
+        margin-left: 12px;
+        color: #fff;
+        line-height: 0.4;
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 420px) {
+    .titulo-processo-digital {
+        padding-top: 15px;
+        margin-left: 8px;
+        color: #fff;
+        line-height: 0.4;
+        font-size: 14px;
+    }
+
+    .titulo-municipio {
+        margin-left: 8px;
+        font-size: 14px;
+        color: #fff;
+        line-height: 2.0;
+    }
+}
+
+@media (max-width: 350px) {
+    .titulo-processo-digital {
+        padding-top: 15px;
+        margin-left: 8px;
+        color: #fff;
+        line-height: 0.4;
+        font-size: 7px;
+    }
+
+    .titulo-municipio {
+        margin-left: 8px;
+        font-size: 7px;
+        color: #fff;
+        line-height: 2.0;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        width: 80px;
+        flex-shrink: 0;
+    }
+}
+
+.abase .card {
+    color: #fff !important;
+}
+
+    .abase .card .card-body {
+        padding: 0.05rem 0.05rem 0.05rem 0.05rem !important;
+    }
+
+        .abase .card .card-body .card-title {
+            font-size: 1.25rem;
+        }
+
+        .abase .card .card-body .card-title {
+            display: inline-block;
+        }
+
+    .abase .card .btn-secondary {
+        border-color: #ffffff !important;
+        background: #fff !important;
+        height: 100%;
+    }
+
+    .abase .card:hover .btn-secondary {
+        border-color: #f8f9fa !important;
+        background: #f8f9fa !important;
+        height: 100%;
+    }
+
+    .abase .card .btn {
+        color: #6c757d !important;
+    }
+
+.abase .form-group {
+    margin-bottom: 5px;
+}
+
+.table td, .table th {
+    padding: 0.5rem;
+    vertical-align: top;
+    border-top: 1px solid #e9ecef;
+}
+
+.btnAbase {
+    margin-top: -5px;
+    padding: 3px 5px 2px 5px;
+}
+/**
+.page-titles {
+    background: #fff;
+    padding: 5px 10px 0px 10px;
+    box-shadow: 1px 0 20px rgba(0,0,0,.00);
+    margin: 0 -25px 0px;
+}**/
+.comment-text {
+    padding: 20px 15px 14px 20px;
+}
+
+.round {
+    line-height: 48px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+    .round, .round img {
+        border-radius: 0;
+    }
+
+        .round, .round.round-info {
+            background: #fff;
+        }
+
+.iconAbase {
+    font-size: 30px !important;
+}
+
+    .iconAbase .fa-arrow-alt-circle-right {
+        color: #00c0c8;
+    }
+
+    .iconAbase .fa-industry {
+        color: #fb9678a3;
+    }
+
+    .iconAbase .fa-money-bill-alt {
+        color: #ab8ce4c7;
+    }
+
+    .iconAbase .fa-users {
+        color: #00c292;
+    }
+
+    .iconAbase .fa-certificate {
+        color: #e21b2f8a;
+    }
+
+    .iconAbase .fa-donate {
+        color: #fec20b;
+    }
+
+    .iconAbase .fa-truck-moving {
+        color: #fb9678;
+    }
+
+    .iconAbase .fa-balance-scale {
+        color: #e46a76;
+    }
+
+    .iconAbase .fa-seedling {
+        color: #02dea8;
+    }
+
+    .iconAbase .fa-gavel {
+        color: #02a1de;
+    }
+
+    .iconAbase .fa-file-invoice-dollar {
+        color: #00c283;
+    }
+
+    .iconAbase .fa-hand-holding-usd {
+        color: #fec209;
+    }
+
+    .iconAbase .fa-info-circle {
+        color: #f1e907;
+    }
+
+
+.iconAbase {
+    font-size: 30px !important;
+}
+
+    .iconAbase .fa-arrow-alt-circle-right {
+        color: #00c0c8;
+    }
+
+    .iconAbase .fa-industry {
+        color: #fb9678a3;
+    }
+
+    .iconAbase .fa-money-bill-alt {
+        color: #00c292;
+    }
+
+    .iconAbase .fa-users {
+        color: #00c292;
+    }
+
+    .iconAbase .fa-certificate {
+        color: #e21b2f8a;
+    }
+
+    .iconAbase .fa-donate {
+        color: #fec20b;
+    }
+
+    .iconAbase .fa-truck-moving {
+        color: #fb9678;
+    }
+
+    .iconAbase .fa-balance-scale {
+        color: #e46a76;
+    }
+
+    .iconAbase .fa-seedling {
+        color: #02dea8;
+    }
+
+    .iconAbase .fa-gavel {
+        color: #02a1de;
+    }
+
+    .iconAbase .fa-file-invoice-dollar {
+        color: #00c283;
+    }
+
+    .iconAbase .fa-hand-holding-usd {
+        color: #fec209;
+    }
+
+    .iconAbase .fa-info-circle {
+        color: #f1e907;
+    }
+
+.iconDespesas .fa-file-invoice-dollar {
+    color: #02dea8;
+}
+
+.iconDespesas .counter {
+    color: #02dea8;
+}
+
+.Bg-empenho {
+    background-color: #02dea8 !important;
+}
+
+.iconAbase .fa-dollar-sign {
+    color: #01c0c8 !important;
+}
+
+.iconAbase .fa-sticky-note {
+    color: #01c0c8 !important
+}
+
+.iconAbase .fa-hand-holding-usd {
+    color: #00654c;
+}
+
+.ColorSaldo {
+    color: #00654c;
+}
+
+.BarColorSaldo {
+    background-color: #00654c !important;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #05a9f3;
+    border-color: #05a9f3;
+}
+
+@media (max-width: 1600px) {
+    .topbar .top-navbar {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        -webkit-align-items: center;
+    }
+}
+
+body {
+    font-family: Poppins,sans-serif;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #edf1f5;
+}
+
+.dataTables_wrapper {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.brasao {
+    height: 50px;
+}
+
+.card-title {
+    margin-bottom: 0.3rem;
+}
+
+.money {
+    float: right !important "
+}
+
+.iconAbase .fa-id-card-alt {
+    color: #fb9678
+}
+
+.iconAbase .mdi-contacts {
+    color: #03a9f3;
+}
+
+.iconAbase .fa-money-bill-alt {
+    color: #00c292;
+}
+
+.iconAbase .fa-id-badge {
+    color: #01c0c8;
+}
+
+.iconAbase .mdi-car {
+    color: #05a9f3;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.linha0 {
+    bottom: 0;
+    background: #f4f4f4;
+}
+
+.linhaMargem {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.abase5 .custom-control {
+    padding-left: 0.025rem !important;
+}
+
+.card-sem-borda {
+    margin-bottom: 1px !important;
+}
+
+    .card-sem-borda .no-padding .card {
+        margin-bottom: 1px !important;
+    }
+
+.m-t-60 {
+    margin-top: 60px;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #05a9f3;
+    border-color: #05a9f3;
+}
+
+.dropdown-menu.show {
+    display: block;
+    width: 100%;
+}
+
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    overflow: hidden;
+    color: #000;
+}
+
+@media (max-width: 991px) {
+    .Botao100 {
+        width: 100%;
+    }
+}
+
+.footerGrafico {
+    bottom: 0 !important;
+    left: 0;
+    padding: 0px 0px;
+    right: 0;
+    border-top: 1px solid #e9ecef;
+    background: #fff;
+    position: absolute;
+}
+
+@media (max-width: 100px) {
+    .footerGrafico {
+        bottom: 0 !important;
+        left: 0;
+        padding: 0px 0px;
+        right: 0;
+        border-top: 1px solid #e9ecef;
+        background: #fff;
+        position: relative;
+    }
+}
+
+.loading-table {
+    font-size: 70px !important;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.foto-configuracao {
+    background-image: url('');
+    background-size: contain;
+    background-position: center;
+    height: 93px;
+    width: inherit;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.foto-adicionar-anexo {
+    background-image: url('');
+    background-size: contain;
+    background-position: center;
+    height: 250px;
+    width: inherit;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.btn-anexo {
+    background: #2962FF;
+    color: white;
+}
+
+.abase7 .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: none !important;
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.abase7 .dropdown-toggle:empty::after {
+    margin-left: 0;
+}
+
+.btn-opcoes-anexo {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .5rem;
+    font-size: .575rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.abase7 .nav {
+    display: flex;
+    padding-right: 0 !important;
+}
+
+.abase7 .bg-light {
+    background-color: #ffffff !important;
+}
+
+.abase7 a:hover {
+    color: black;
+}
+
+.nav-pills .show > .nav-link {
+    color: black;
+    background-color: #fff;
+    font-size: 7px;
+}
+
+.abase7 a {
+    color: #797979;
+    font-size: 12px
+}
+
+.abase7 .dropdown-item {
+    color: #040f2d;
+}
+
+.abase7 .bg-light {
+    background-color: #ffffff !important;
+}
+
+.abase7 .dropdown-item:active {
+    color: #040f2d;
+    background-color: #f5f5f5;
+}
+
+.abase7 .card:hover .btn-secondary {
+    border-color: #fff !important;
+    background: #fff !important;
+    height: 100%;
+}
+.select2-selection__rendered {
+    line-height: 38px !important;
+}
+
+.select2-selection {
+    height: 38px !important;
+}

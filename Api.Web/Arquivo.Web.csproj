@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\datatables.net-bs4\js\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\assets\datatables.net-bs4\js\dataTables.bootstrap4.min.js" />
+    <None Include="wwwroot\assets\datatables.net-bs4\js\dataTables.responsive.min.js" />
+    <None Include="wwwroot\assets\datatables.net-bs4\Readme.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\js\pages\Administrador\" />
+  </ItemGroup>
+
+</Project>

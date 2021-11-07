@@ -1,0 +1,37 @@
+﻿@page ""
+@{
+
+    Layout = "_Layout";
+}
+<section id="wrapper">
+    <div class="login-register" style="background-image:url(/assets/images/login-imagem.jpeg);">
+        <div class="login-box card">
+            <div class="card-body">
+                <form class="form-horizontal form-material" id="loginform" action="index.html">
+                    <div class="text-center m-b-20">
+                        <img src="~/assets/images/processos-digitais-logo.png" alt="homepage" class="dark-logo" />
+                    </div>
+                    <div class="form-group m-t-20">
+                        <div class="col-xs-12 m-t-20">
+                            <input class="form-control" type="text" name="Login" id="login" required="" placeholder="Usuário">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <input class="form-control" type="password" name="Senha" id="senha" required="" placeholder="Senha">
+                        </div>
+                    </div>
+                    <div id="display-erro" class="alert alert-danger" style="display:none"><span id="alert-erro"></span></div>
+                    <div class="form-group text-center">
+                        <div class="col-xs-12 p-b-20">
+                            <button class="btn btn-block btn-lg btn-info btn-rounded" type="button" onclick="Acessar(this);">Log In</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+@section Scripts {
+    <script src="~/js/pages/login.js?v@(FileVersion.Versao())"></script>
+}
